@@ -1,0 +1,35 @@
+body {
+    background-color: #6E33FF;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: lightyellow;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: justify;
+}
+.card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Configuraçoes</title>
+    <link rel="stylesheet" type="text/css" href="../css/styleforms.css">
+</head>
+
+
+<body>
+    <div class="settings-container">
+        <div class="settings-header">
+            <span>
+                <h1>Configurações</h1>
+            </span>
+        </div>
+        <hr>
+       <main>
+        <div class="settings-content">
+            <form>
+                <h2>Informações da conta</h2>
+                <br><br>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" name="username">
+                <br><br>
+                <label for="email">Endereço de e-mail</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <hr>
+                <h2>Notificações</h2>
+                <br><br>
+                <label for="notification-likes">Receber notificações de curtidas</label>
+                <input type="checkbox" id="notification-likes" name="notification-likes" checked>
+                <br><br>
+                <label for="notification-comments">Receber notificações de comentários</label>
+                <input type="checkbox" id="notification-comments" name="notification-comments" checked>
+                <br><br>
+                <hr>
+                <h2>Privacidade e segurança</h2>
+                <label for="private-account">Conta privada</label>
+                <br><br>
+                <input type="checkbox" id="private-account" name="private-account">
+                <label for="two-factor-authentication">Autenticação em duas etapas</label>
+                <br><br>
+                <input type="checkbox" id="two-factor-authentication" name="two-factor-authentication" checked>
+                <button type="submit">Salvar alterações</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+</body>
+
+</html>
